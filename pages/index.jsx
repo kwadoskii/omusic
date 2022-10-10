@@ -7,7 +7,7 @@ export default function Home() {
         <title>Octoba Challenge</title>
       </Head>
 
-      <p>Hello world</p>
+      <p className="font-extrabold text-3xl">Hello World!</p>
     </>
   );
 }
