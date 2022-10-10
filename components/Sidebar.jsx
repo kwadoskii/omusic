@@ -14,7 +14,7 @@ export default function Sidebar() {
         <Image src={logo} layout="fill" />
       </div>
 
-      <div className="flex gap-8 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-12">
+      <div className="flex gap-5 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-12">
         <div className="relative h-12 w-12 cursor-pointer group ">
           <Home className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear" />
         </div>
@@ -32,7 +32,7 @@ export default function Sidebar() {
         </div>
       </div>
 
-      <div className="flex gap-8 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-12">
+      <div className="flex gap-5 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-5">
         <div className="h-12 w-7 cursor-pointer group">
           <Profile className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear opacity-25" />
         </div>
