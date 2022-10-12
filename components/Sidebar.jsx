@@ -16,28 +16,28 @@ export default function Sidebar() {
 
       <div className="flex gap-5 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-12">
         <div className="relative h-12 w-12 cursor-pointer group ">
-          <Home className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear" />
+          <Home className="group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in" />
         </div>
 
         <div className="h-12 w-7 cursor-pointer group ">
-          <Playlist className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear opacity-25" />
+          <Playlist className="group-hover:fill-secondary group-hover:scale-[1.2] group-hover:opacity-100 transition-all duration-300 ease-in opacity-25" />
         </div>
 
         <div className="h-12 w-7 cursor-pointer group ">
-          <Radio className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear opacity-25" />
+          <Radio className="group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in opacity-25" />
         </div>
 
         <div className="h-12 w-7 cursor-pointer group ">
-          <Videos className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear opacity-25" />
+          <Videos className="group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in opacity-25" />
         </div>
       </div>
 
       <div className="flex gap-5 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-5">
         <div className="h-12 w-7 cursor-pointer group">
-          <Profile className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear opacity-25" />
+          <Profile className="group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in opacity-25" />
         </div>
         <div className="h-12 w-7 cursor-pointer group">
-          <Logout className="group-hover:fill-secondary group-hover:opacity-100 transition-all duration-200 ease-linear opacity-25" />
+          <Logout className="group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in opacity-25" />
         </div>
       </div>
     </div>

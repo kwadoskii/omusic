@@ -12,6 +12,9 @@ module.exports = {
         primary: "#A4C7C6",
         alt: "#A4C7C6",
       },
+      gridTemplateColumns: {
+        main: "repeat(13, minmax(0, 1fr))",
+      },
     },
   },
   plugins: [],
