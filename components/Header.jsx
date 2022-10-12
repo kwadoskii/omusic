@@ -1,3 +1,7 @@
-export default function Header({ title }) {
-  return <h3 className="text-2xl font-bold text-white mb-5">{title}</h3>;
+export default function Header({ title, className }) {
+  return (
+    <h3 className={`text-xl md:text-2xl font-semibold md:font-bold text-white mb-5 ` + className}>
+      {title}
+    </h3>
+  );
 }
