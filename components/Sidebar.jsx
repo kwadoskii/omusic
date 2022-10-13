@@ -19,11 +19,21 @@ export default function Sidebar() {
 
       <div className="flex gap-5 bg-dark-alt rounded-full flex-col items-center justify-center py-5 px-8 mt-12">
         <div className="relative h-12 w-12 cursor-pointer group " onClick={() => router.push("/")}>
-          <Home className="group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in" />
+          <Home
+            className={`group-hover:fill-secondary group-hover:opacity-100 group-hover:scale-[1.2] transition-all duration-200 ease-in opacity-25 ${
+              ["/", "/chart"].some((path) => path === router.pathname) //used for home and chart
+                ? "fill-secondary opacity-100"
+                : ""
+            }`}
+          />
         </div>
 
         <div className="h-12 w-7 cursor-pointer group " onClick={() => router.push("/playlist")}>
-          <Playlist className="group-hover:fill-secondary group-hover:scale-[1.2] group-hover:opacity-100 transition-all duration-300 ease-in opacity-25" />
+          <Playlist
+            className={`group-hover:fill-secondary group-hover:scale-[1.2] group-hover:opacity-100 transition-all duration-300 ease-in opacity-25 ${
+              router.pathname === "/playlist" ? "fill-secondary opacity-100" : ""
+            }`}
+          />
         </div>
 
         <div className="h-12 w-7 cursor-pointer group ">
